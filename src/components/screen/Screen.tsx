@@ -33,7 +33,6 @@ const Screen = (props : ScreenProps) => {
   }) : undefined;
 
   const handleLayoutChange = (event: LayoutChangeEvent) => {
-    console.log(event.nativeEvent.layout)
     setScrollViewLayout(event.nativeEvent.layout.height)
   }
 

@@ -37,8 +37,6 @@ const Filter = (props: FilterProps) => {
 
   const maxDate = Object.keys(markedDates).pop()
 
-  console.log(markedDates)
-
   return (
     <Screen headerText='Filter' back scrollEnabled={false} >
       <ExplanationContainer>

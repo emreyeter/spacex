@@ -22,11 +22,6 @@ const Detail = (props : DetailProps) => {
   const text= `${status} Launch`
   const dateFromNow = moment(unixToDate(item.date_unix)).fromNow()
 
-
-  const [playing, setPlaying] = useState(false);
-
-  console.log(item)
-
   return (
     <Screen  backgroundColor={COLORS.BLACK_RUSSIAN} back headerText={item.name} >
       
